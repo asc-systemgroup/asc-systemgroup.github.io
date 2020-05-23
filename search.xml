@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2020-5-22 Seminar</title>
+    <url>/2020/05/11/hello-world/</url>
+    <content><![CDATA[<h3 id="Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks"><a href="#Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks" class="headerlink" title="Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks"></a>Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks</h3><p><strong>Presenter</strong> ： SimonHu</p>
+<p><strong>Abstract</strong> : End-to-end encryption for wireless sensor networks is a challenging problem. To save the overall energy resources of the network it is agreed that sensed data need to be consolidated and aggregated on their way to the final destination. We present an approach that (1) conceals sensed data end-to-end, by (2) still providing efficient in-network data aggregation. The aggregating intermediate nodes are not required to operate on the sensed plaintext data. We apply a particular class of encryption transformation and exemplarily discuss the approach on the basis of two aggregation functions. We use actual implementation to show that the approach is feasible and flexible and frequently even more energy efficient than hop-by-hop encryption.</p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Paper</a> </p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Sliders</a></p>
+<hr>
+<h3 id="Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks-1"><a href="#Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks-1" class="headerlink" title="Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks"></a>Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks</h3><p><strong>Presenter</strong> ： SimonHu</p>
+<p><strong>Abstract</strong> : End-to-end encryption for wireless sensor networks is a challenging problem. To save the overall energy resources of the network it is agreed that sensed data need to be consolidated and aggregated on their way to the final destination. We present an approach that (1) conceals sensed data end-to-end, by (2) still providing efficient in-network data aggregation. The aggregating intermediate nodes are not required to operate on the sensed plaintext data. We apply a particular class of encryption transformation and exemplarily discuss the approach on the basis of two aggregation functions. We use actual implementation to show that the approach is feasible and flexible and frequently even more energy efficient than hop-by-hop encryption.</p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Paper</a> </p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Sliders</a></p>
+]]></content>
+  </entry>
+</search>
