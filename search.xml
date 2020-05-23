@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020-5-22 Seminar</title>
-    <url>/2020/05/11/2020-5-22/</url>
-    <content><![CDATA[<h3 id="Title-An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection"><a href="#Title-An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection" class="headerlink" title="Title : An Ensemble of Autoencoders for Online Network Intrusion Detection"></a>Title : An Ensemble of Autoencoders for Online Network Intrusion Detection</h3><p><strong>From</strong> ：NDSS2018</p>
-<p><strong>Presenter</strong> ： 杨景秀</p>
+    <title>&lt;Yang&gt; An Ensemble of Autoencoders for Online Network Intrusion Detection</title>
+    <url>/2020/05/24/An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection/</url>
+    <content><![CDATA[<h3 id="An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection"><a href="#An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection" class="headerlink" title="An Ensemble of Autoencoders for Online Network Intrusion Detection"></a>An Ensemble of Autoencoders for Online Network Intrusion Detection</h3><p><strong>From</strong> ：NDSS2018</p>
+<p><strong>Presenter</strong> : 杨景秀</p>
 <p><strong>Abstract</strong> : Neural networks have become an increasingly popular solution for network intrusion detection systems (NIDS). Their capability of learning complex patterns and behaviors make them a suitable solution for differentiating between normal traffic and network attacks. However, a drawback of neural networks is the amount of resources needed to train them. Many network gateways and routers devices, which could potentially host an NIDS, simply do not have the memory or processing power to train and sometimes even execute such models. More importantly, the existing neural network solutions are trained in a supervised manner. Meaning that an expert must label the network traffic and update the model manually from time to time. In this paper, we present Kitsune: a plug and play NIDS which can learn to detect attacks on the local network, without supervision, and in an efficient online manner. Kitsune’s core algorithm (KitNET) uses an ensemble of neural networks called autoencoders to collectively differentiate between normal and abnormal traffic patterns. KitNET is supported by a feature extraction framework which efficiently tracks the patterns of every network channel. Our evaluations show that Kitsune can detect various attacks with a performance comparable to offline anomaly detectors, even on a Raspberry PI. This demonstrates that Kitsune can be a practical and economic NIDS..</p>
-<p> <a href="https://github.com/asc-systemgroup/asc-systemgroup.github.io/blob/master/papers/ndss2018_03A-3_Mirsky_paper.pdf" target="_blank" rel="noopener">Paper</a> </p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/papers/ndss2018_03A-3_Mirsky_paper.pdf" target="_blank" rel="noopener">Paper</a> </p>
 <p> <a href="">Slides</a></p>
 <p> <a href="https://www.youtube.com/watch?v=QehnPHi04gM" target="_blank" rel="noopener">Video</a></p>
-<hr>
-<h3 id="Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks"><a href="#Title-CDA-Concealed-Data-Aggregation-for-Reverse-Multicast-Traffic-in-Wireless-Sensor-Networks" class="headerlink" title="Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks"></a>Title : CDA: Concealed Data Aggregation for Reverse Multicast Traffic in Wireless Sensor Networks</h3><p><strong>Presenter</strong> ： SimonHu</p>
-<p><strong>Abstract</strong> : End-to-end encryption for wireless sensor networks is a challenging problem. To save the overall energy resources of the network it is agreed that sensed data need to be consolidated and aggregated on their way to the final destination. We present an approach that (1) conceals sensed data end-to-end, by (2) still providing efficient in-network data aggregation. The aggregating intermediate nodes are not required to operate on the sensed plaintext data. We apply a particular class of encryption transformation and exemplarily discuss the approach on the basis of two aggregation functions. We use actual implementation to show that the approach is feasible and flexible and frequently even more energy efficient than hop-by-hop encryption.</p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Paper</a> </p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/cda.pdf" target="_blank" rel="noopener">Sliders</a></p>
 ]]></content>
+      <categories>
+        <category>杨景秀</category>
+      </categories>
       <tags>
+        <tag>ML</tag>
         <tag>WSN</tag>
+        <tag>IDS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>&lt;Ye&gt; Razor: A Framework for Post-deployment Software Debloating</title>
+    <url>/2020/05/24/Razor-A-Framework-for-Post-deployment-Software-Debloating/</url>
+    <content><![CDATA[<h3 id="Razor-A-Framework-for-Post-deployment-Software-Debloating"><a href="#Razor-A-Framework-for-Post-deployment-Software-Debloating" class="headerlink" title="Razor: A Framework for Post-deployment Software Debloating"></a>Razor: A Framework for Post-deployment Software Debloating</h3><p><strong>Presenter</strong> : 叶仁俊</p>
+<p><strong>Abstract</strong> : Commodity software typically includes a large number of functionalities for a broad user population. However, each individual user usually only needs a small subset of all supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent works have explored program debloating as an emerging solution to this problem. Unfortunately, these works require program source code, limiting their real-world deployability. In this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specifications, our tool customizes the binary to generate a functional program with minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that is necessary to support user-expected functionalities. We evaluated RAZOR on commonly used benchmarks and realworld applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce any security issues. RAZOR is thus a practical framework for debloating real-world programs..</p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/papers/paper522.pdf" target="_blank" rel="noopener">Paper</a> </p>
+<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/slides/sec19_slides-qian.pdf" target="_blank" rel="noopener">Slides</a></p>
+]]></content>
+      <categories>
+        <category>叶仁俊</category>
+      </categories>
+      <tags>
+        <tag>software debloat</tag>
       </tags>
   </entry>
 </search>
