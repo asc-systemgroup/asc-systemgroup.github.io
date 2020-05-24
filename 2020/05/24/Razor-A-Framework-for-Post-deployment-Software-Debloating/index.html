@@ -14,7 +14,7 @@
 <meta property="og:description" content="Razor: A Framework for Post-deployment Software DebloatingPresenter : 叶仁俊 Abstract : Commodity software typically includes a large number of functionalities for a broad user population. However, each">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-05-23T16:14:00.000Z">
-<meta property="article:modified_time" content="2020-05-23T16:16:46.547Z">
+<meta property="article:modified_time" content="2020-05-24T05:01:46.930Z">
 <meta property="article:author" content="SimonHu">
 <meta property="article:tag" content="software debloat">
 <meta name="twitter:card" content="summary">
@@ -158,9 +158,25 @@
 
   <div class="content" itemprop="articleBody">
     <h3 id="Razor-A-Framework-for-Post-deployment-Software-Debloating"><a href="#Razor-A-Framework-for-Post-deployment-Software-Debloating" class="headerlink" title="Razor: A Framework for Post-deployment Software Debloating"></a>Razor: A Framework for Post-deployment Software Debloating</h3><p><strong>Presenter</strong> : 叶仁俊</p>
-<p><strong>Abstract</strong> : Commodity software typically includes a large number of functionalities for a broad user population. However, each individual user usually only needs a small subset of all supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent works have explored program debloating as an emerging solution to this problem. Unfortunately, these works require program source code, limiting their real-world deployability. In this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specifications, our tool customizes the binary to generate a functional program with minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that is necessary to support user-expected functionalities. We evaluated RAZOR on commonly used benchmarks and realworld applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce any security issues. RAZOR is thus a practical framework for debloating real-world programs..</p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/papers/paper522.pdf" target="_blank" rel="noopener">Paper</a> </p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/slides/sec19_slides-qian.pdf" target="_blank" rel="noopener">Slides</a></p>
+<p><strong>Abstract</strong> : Commodity software typically includes a large number of functionalities for a broad user population. However, each individual user usually only needs a small subset of all supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent works have explored program debloating as an emerging solution to this problem. Unfortunately, these works require program source code, limiting their real-world deployability. In this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specifications, our tool customizes the binary to generate a functional program with minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that is necessary to support user-expected functionalities. We evaluated RAZOR on commonly used benchmarks and realworld applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce any security issues. RAZOR is thus a practical framework for debloating real-world programs.</p>
+<p><code>Slides</code></p>
+
+
+	<div class="row">
+    <embed src="./sec19_slides-qian.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+<p><code>Paper</code></p>
+
+
+	<div class="row">
+    <embed src="./paper522.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
 
   </div>
 </article>

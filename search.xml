@@ -6,12 +6,22 @@
     <content><![CDATA[<h3 id="An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection"><a href="#An-Ensemble-of-Autoencoders-for-Online-Network-Intrusion-Detection" class="headerlink" title="An Ensemble of Autoencoders for Online Network Intrusion Detection"></a>An Ensemble of Autoencoders for Online Network Intrusion Detection</h3><p><strong>From</strong> ：NDSS2018</p>
 <p><strong>Presenter</strong> : 杨景秀</p>
 <p><strong>Abstract</strong> : Neural networks have become an increasingly popular solution for network intrusion detection systems (NIDS). Their capability of learning complex patterns and behaviors make them a suitable solution for differentiating between normal traffic and network attacks. However, a drawback of neural networks is the amount of resources needed to train them. Many network gateways and routers devices, which could potentially host an NIDS, simply do not have the memory or processing power to train and sometimes even execute such models. More importantly, the existing neural network solutions are trained in a supervised manner. Meaning that an expert must label the network traffic and update the model manually from time to time. In this paper, we present Kitsune: a plug and play NIDS which can learn to detect attacks on the local network, without supervision, and in an efficient online manner. Kitsune’s core algorithm (KitNET) uses an ensemble of neural networks called autoencoders to collectively differentiate between normal and abnormal traffic patterns. KitNET is supported by a feature extraction framework which efficiently tracks the patterns of every network channel. Our evaluations show that Kitsune can detect various attacks with a performance comparable to offline anomaly detectors, even on a Raspberry PI. This demonstrates that Kitsune can be a practical and economic NIDS..</p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/papers/ndss2018_03A-3_Mirsky_paper.pdf" target="_blank" rel="noopener">Paper</a> </p>
-<p> <a href="">Slides</a></p>
-<p> <a href="https://www.youtube.com/watch?v=QehnPHi04gM" target="_blank" rel="noopener">Video</a></p>
-]]></content>
+<p><code>Slides</code></p>
+
+
+	<div class="row">
+    <embed src="./ndss2018_03A-3_Mirsky_paper.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+<p><code>Paper</code></p>
+<p><code>Video</code></p>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/QehnPHi04gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       <categories>
         <category>杨景秀</category>
+        <category>[object Object]</category>
       </categories>
       <tags>
         <tag>IDS</tag>
@@ -23,9 +33,25 @@
     <title>&lt;Ye&gt; Razor: A Framework for Post-deployment Software Debloating</title>
     <url>/2020/05/24/Razor-A-Framework-for-Post-deployment-Software-Debloating/</url>
     <content><![CDATA[<h3 id="Razor-A-Framework-for-Post-deployment-Software-Debloating"><a href="#Razor-A-Framework-for-Post-deployment-Software-Debloating" class="headerlink" title="Razor: A Framework for Post-deployment Software Debloating"></a>Razor: A Framework for Post-deployment Software Debloating</h3><p><strong>Presenter</strong> : 叶仁俊</p>
-<p><strong>Abstract</strong> : Commodity software typically includes a large number of functionalities for a broad user population. However, each individual user usually only needs a small subset of all supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent works have explored program debloating as an emerging solution to this problem. Unfortunately, these works require program source code, limiting their real-world deployability. In this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specifications, our tool customizes the binary to generate a functional program with minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that is necessary to support user-expected functionalities. We evaluated RAZOR on commonly used benchmarks and realworld applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce any security issues. RAZOR is thus a practical framework for debloating real-world programs..</p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/papers/paper522.pdf" target="_blank" rel="noopener">Paper</a> </p>
-<p> <a href="https://github.com/asc-systemgroup/PaperandSlider/blob/master/slides/sec19_slides-qian.pdf" target="_blank" rel="noopener">Slides</a></p>
+<p><strong>Abstract</strong> : Commodity software typically includes a large number of functionalities for a broad user population. However, each individual user usually only needs a small subset of all supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent works have explored program debloating as an emerging solution to this problem. Unfortunately, these works require program source code, limiting their real-world deployability. In this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specifications, our tool customizes the binary to generate a functional program with minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that is necessary to support user-expected functionalities. We evaluated RAZOR on commonly used benchmarks and realworld applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce any security issues. RAZOR is thus a practical framework for debloating real-world programs.</p>
+<p><code>Slides</code></p>
+
+
+	<div class="row">
+    <embed src="./sec19_slides-qian.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+<p><code>Paper</code></p>
+
+
+	<div class="row">
+    <embed src="./paper522.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
 ]]></content>
       <categories>
         <category>叶仁俊</category>
